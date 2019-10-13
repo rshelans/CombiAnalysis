@@ -144,7 +144,7 @@ Townshend, Brent, Andrew B. Kennedy, Joy S. Xiang, and Christina D. Smolke. 2015
 
 We determined the mean and variance of expression for a regulatory fragment by fitting an estimate of that fragment’s prevalence in each fraction to a log-normal model of protein expression, as described in 2015 townsend et al. The estimate, $ x_{i,b} $, of the ratio of cells containing fragment, i, sorted into each fraction, b, was determined by normalizing the number of reads, $r_{i,b} $ by multiplication with $ \frac{C_b}{R_b ∑ C_b } $, where $ C_b $ and  $ R_b $ are the total number of cells sorted and reads mapped from bin b, respectively. (First, calculating the fractional representation of fragment, i, in bin b and subsequently scaling that fraction by the fraction of cells observed in bin b by FACS). We then assume that $ x_{i,b}$  are random variables sampled from binned log-normal distributions where the bins are determined by the FACS fraction boundaries.
 
-![image.png](attachment:image.png)
+![image.png](imgs/image1.png)
 
 
 Where, $ {x}_i $, is the vector of ratios for all bins described above,$ \mu_i $, is the mean expression, $\sigma_i $, is the standard deviation of expression, $ A_b $, is the expression value for the upper boundary of bin b by FACS. 
@@ -419,7 +419,7 @@ __DATA__  = {(__ENHANCER__, __PROMOTER__):dfEP,
 ## Read Statistics
 
 #### LEGEND
-![Untitled.png](attachment:Untitled.png)
+![Untitled.png](imgs/image2.png)
 
 
 ```python
@@ -768,7 +768,7 @@ figure.savefig(folder+'VennNBUnsort_GENES.svg', bbox_inches="tight")
 
 ## Inference of Cell Proportion from Readcount
 Described above.
-![drawing.png](attachment:drawing.png)
+![drawing.png](imgs/image3.png)
 
 
 
@@ -1957,7 +1957,7 @@ bed_names
 
 
 ## Legend
-![gene.png](attachment:gene.png)
+![gene.png](imgs/image4.png)
 
 
 ```python
